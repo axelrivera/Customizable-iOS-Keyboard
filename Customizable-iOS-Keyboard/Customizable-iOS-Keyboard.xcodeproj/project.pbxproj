@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50166674143F81FB00BF220D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50166673143F81FB00BF220D /* UIKit.framework */; };
+		50166676143F81FB00BF220D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50166675143F81FB00BF220D /* Foundation.framework */; };
+		50166678143F81FB00BF220D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50166677143F81FB00BF220D /* CoreGraphics.framework */; };
+		5016667E143F81FB00BF220D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5016667C143F81FB00BF220D /* InfoPlist.strings */; };
+		50166681143F81FB00BF220D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50166680143F81FB00BF220D /* main.m */; };
+		50166684143F81FB00BF220D /* Customizable_iOS_KeyboardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50166683143F81FB00BF220D /* Customizable_iOS_KeyboardAppDelegate.m */; };
+		50166687143F81FB00BF220D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50166685143F81FB00BF220D /* MainWindow.xib */; };
+		5016668A143F81FB00BF220D /* Customizable_iOS_KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50166689143F81FB00BF220D /* Customizable_iOS_KeyboardViewController.m */; };
+		5016668D143F81FB00BF220D /* Customizable_iOS_KeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5016668B143F81FB00BF220D /* Customizable_iOS_KeyboardViewController.xib */; };
+		50166698143F82E200BF220D /* CustomizableKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 50166697143F82E200BF220D /* CustomizableKeyboard.m */; };
+		5016669A143F82FB00BF220D /* CustomizableKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50166699143F82FB00BF220D /* CustomizableKeyboard.xib */; };
+		5016669D143F850100BF220D /* SpecialButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5016669C143F850100BF220D /* SpecialButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5016666F143F81FB00BF220D /* Customizable-iOS-Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Customizable-iOS-Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50166673143F81FB00BF220D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50166675143F81FB00BF220D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50166677143F81FB00BF220D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5016667B143F81FB00BF220D /* Customizable-iOS-Keyboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Customizable-iOS-Keyboard-Info.plist"; sourceTree = "<group>"; };
+		5016667D143F81FB00BF220D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5016667F143F81FB00BF220D /* Customizable-iOS-Keyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Customizable-iOS-Keyboard-Prefix.pch"; sourceTree = "<group>"; };
+		50166680143F81FB00BF220D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50166682143F81FB00BF220D /* Customizable_iOS_KeyboardAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Customizable_iOS_KeyboardAppDelegate.h; sourceTree = "<group>"; };
+		50166683143F81FB00BF220D /* Customizable_iOS_KeyboardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Customizable_iOS_KeyboardAppDelegate.m; sourceTree = "<group>"; };
+		50166686143F81FB00BF220D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		50166688143F81FB00BF220D /* Customizable_iOS_KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Customizable_iOS_KeyboardViewController.h; sourceTree = "<group>"; };
+		50166689143F81FB00BF220D /* Customizable_iOS_KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Customizable_iOS_KeyboardViewController.m; sourceTree = "<group>"; };
+		5016668C143F81FB00BF220D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Customizable_iOS_KeyboardViewController.xib; sourceTree = "<group>"; };
+		50166696143F82E200BF220D /* CustomizableKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizableKeyboard.h; sourceTree = "<group>"; };
+		50166697143F82E200BF220D /* CustomizableKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizableKeyboard.m; sourceTree = "<group>"; };
+		50166699143F82FB00BF220D /* CustomizableKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomizableKeyboard.xib; sourceTree = "<group>"; };
+		5016669B143F850100BF220D /* SpecialButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialButton.h; sourceTree = "<group>"; };
+		5016669C143F850100BF220D /* SpecialButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5016666C143F81FB00BF220D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50166674143F81FB00BF220D /* UIKit.framework in Frameworks */,
+				50166676143F81FB00BF220D /* Foundation.framework in Frameworks */,
+				50166678143F81FB00BF220D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50166664143F81FB00BF220D = {
+			isa = PBXGroup;
+			children = (
+				50166679143F81FB00BF220D /* Customizable-iOS-Keyboard */,
+				50166672143F81FB00BF220D /* Frameworks */,
+				50166670143F81FB00BF220D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50166670143F81FB00BF220D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5016666F143F81FB00BF220D /* Customizable-iOS-Keyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50166672143F81FB00BF220D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50166673143F81FB00BF220D /* UIKit.framework */,
+				50166675143F81FB00BF220D /* Foundation.framework */,
+				50166677143F81FB00BF220D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50166679143F81FB00BF220D /* Customizable-iOS-Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				50166693143F823700BF220D /* res */,
+				50166694143F823700BF220D /* src */,
+				50166682143F81FB00BF220D /* Customizable_iOS_KeyboardAppDelegate.h */,
+				50166683143F81FB00BF220D /* Customizable_iOS_KeyboardAppDelegate.m */,
+				50166685143F81FB00BF220D /* MainWindow.xib */,
+				50166688143F81FB00BF220D /* Customizable_iOS_KeyboardViewController.h */,
+				50166689143F81FB00BF220D /* Customizable_iOS_KeyboardViewController.m */,
+				5016668B143F81FB00BF220D /* Customizable_iOS_KeyboardViewController.xib */,
+				5016667A143F81FB00BF220D /* Supporting Files */,
+			);
+			path = "Customizable-iOS-Keyboard";
+			sourceTree = "<group>";
+		};
+		5016667A143F81FB00BF220D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5016667B143F81FB00BF220D /* Customizable-iOS-Keyboard-Info.plist */,
+				5016667C143F81FB00BF220D /* InfoPlist.strings */,
+				5016667F143F81FB00BF220D /* Customizable-iOS-Keyboard-Prefix.pch */,
+				50166680143F81FB00BF220D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50166693143F823700BF220D /* res */ = {
+			isa = PBXGroup;
+			children = (
+				50166699143F82FB00BF220D /* CustomizableKeyboard.xib */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		50166694143F823700BF220D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5016669B143F850100BF220D /* SpecialButton.h */,
+				5016669C143F850100BF220D /* SpecialButton.m */,
+				50166696143F82E200BF220D /* CustomizableKeyboard.h */,
+				50166697143F82E200BF220D /* CustomizableKeyboard.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5016666E143F81FB00BF220D /* Customizable-iOS-Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50166690143F81FB00BF220D /* Build configuration list for PBXNativeTarget "Customizable-iOS-Keyboard" */;
+			buildPhases = (
+				5016666B143F81FB00BF220D /* Sources */,
+				5016666C143F81FB00BF220D /* Frameworks */,
+				5016666D143F81FB00BF220D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Customizable-iOS-Keyboard";
+			productName = "Customizable-iOS-Keyboard";
+			productReference = 5016666F143F81FB00BF220D /* Customizable-iOS-Keyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50166666143F81FB00BF220D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Bellyflop;
+			};
+			buildConfigurationList = 50166669143F81FB00BF220D /* Build configuration list for PBXProject "Customizable-iOS-Keyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50166664143F81FB00BF220D;
+			productRefGroup = 50166670143F81FB00BF220D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5016666E143F81FB00BF220D /* Customizable-iOS-Keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5016666D143F81FB00BF220D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5016667E143F81FB00BF220D /* InfoPlist.strings in Resources */,
+				50166687143F81FB00BF220D /* MainWindow.xib in Resources */,
+				5016668D143F81FB00BF220D /* Customizable_iOS_KeyboardViewController.xib in Resources */,
+				5016669A143F82FB00BF220D /* CustomizableKeyboard.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5016666B143F81FB00BF220D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50166681143F81FB00BF220D /* main.m in Sources */,
+				50166684143F81FB00BF220D /* Customizable_iOS_KeyboardAppDelegate.m in Sources */,
+				5016668A143F81FB00BF220D /* Customizable_iOS_KeyboardViewController.m in Sources */,
+				50166698143F82E200BF220D /* CustomizableKeyboard.m in Sources */,
+				5016669D143F850100BF220D /* SpecialButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5016667C143F81FB00BF220D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5016667D143F81FB00BF220D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50166685143F81FB00BF220D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50166686143F81FB00BF220D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5016668B143F81FB00BF220D /* Customizable_iOS_KeyboardViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5016668C143F81FB00BF220D /* en */,
+			);
+			name = Customizable_iOS_KeyboardViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5016668E143F81FB00BF220D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5016668F143F81FB00BF220D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		50166691143F81FB00BF220D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Customizable-iOS-Keyboard/Customizable-iOS-Keyboard-Prefix.pch";
+				INFOPLIST_FILE = "Customizable-iOS-Keyboard/Customizable-iOS-Keyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50166692143F81FB00BF220D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Customizable-iOS-Keyboard/Customizable-iOS-Keyboard-Prefix.pch";
+				INFOPLIST_FILE = "Customizable-iOS-Keyboard/Customizable-iOS-Keyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50166669143F81FB00BF220D /* Build configuration list for PBXProject "Customizable-iOS-Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5016668E143F81FB00BF220D /* Debug */,
+				5016668F143F81FB00BF220D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50166690143F81FB00BF220D /* Build configuration list for PBXNativeTarget "Customizable-iOS-Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50166691143F81FB00BF220D /* Debug */,
+				50166692143F81FB00BF220D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50166666143F81FB00BF220D /* Project object */;
+}
