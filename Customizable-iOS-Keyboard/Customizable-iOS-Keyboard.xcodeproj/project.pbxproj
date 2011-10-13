@@ -18,7 +18,8 @@
 		5016668D143F81FB00BF220D /* Customizable_iOS_KeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5016668B143F81FB00BF220D /* Customizable_iOS_KeyboardViewController.xib */; };
 		50166698143F82E200BF220D /* CustomizableKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 50166697143F82E200BF220D /* CustomizableKeyboard.m */; };
 		5016669A143F82FB00BF220D /* CustomizableKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50166699143F82FB00BF220D /* CustomizableKeyboard.xib */; };
-		5016669D143F850100BF220D /* SpecialButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5016669C143F850100BF220D /* SpecialButton.m */; };
+		504ED9AD144602A100FEF778 /* ButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 504ED9AC144602A100FEF778 /* ButtonPressed.png */; };
+		50F4F447144600150022BD92 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F4F446144600150022BD92 /* Button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,8 +40,8 @@
 		50166696143F82E200BF220D /* CustomizableKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizableKeyboard.h; sourceTree = "<group>"; };
 		50166697143F82E200BF220D /* CustomizableKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizableKeyboard.m; sourceTree = "<group>"; };
 		50166699143F82FB00BF220D /* CustomizableKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomizableKeyboard.xib; sourceTree = "<group>"; };
-		5016669B143F850100BF220D /* SpecialButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialButton.h; sourceTree = "<group>"; };
-		5016669C143F850100BF220D /* SpecialButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialButton.m; sourceTree = "<group>"; };
+		504ED9AC144602A100FEF778 /* ButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonPressed.png; sourceTree = "<group>"; };
+		50F4F446144600150022BD92 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +115,8 @@
 		50166693143F823700BF220D /* res */ = {
 			isa = PBXGroup;
 			children = (
+				504ED9AC144602A100FEF778 /* ButtonPressed.png */,
+				50F4F446144600150022BD92 /* Button.png */,
 				50166699143F82FB00BF220D /* CustomizableKeyboard.xib */,
 			);
 			path = res;
@@ -122,8 +125,6 @@
 		50166694143F823700BF220D /* src */ = {
 			isa = PBXGroup;
 			children = (
-				5016669B143F850100BF220D /* SpecialButton.h */,
-				5016669C143F850100BF220D /* SpecialButton.m */,
 				50166696143F82E200BF220D /* CustomizableKeyboard.h */,
 				50166697143F82E200BF220D /* CustomizableKeyboard.m */,
 			);
@@ -184,6 +185,8 @@
 				50166687143F81FB00BF220D /* MainWindow.xib in Resources */,
 				5016668D143F81FB00BF220D /* Customizable_iOS_KeyboardViewController.xib in Resources */,
 				5016669A143F82FB00BF220D /* CustomizableKeyboard.xib in Resources */,
+				50F4F447144600150022BD92 /* Button.png in Resources */,
+				504ED9AD144602A100FEF778 /* ButtonPressed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +201,6 @@
 				50166684143F81FB00BF220D /* Customizable_iOS_KeyboardAppDelegate.m in Sources */,
 				5016668A143F81FB00BF220D /* Customizable_iOS_KeyboardViewController.m in Sources */,
 				50166698143F82E200BF220D /* CustomizableKeyboard.m in Sources */,
-				5016669D143F850100BF220D /* SpecialButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
