@@ -29,7 +29,8 @@
 
 enum SPECIAL_KEYS {
     NORMAL_KEY,
-    RETURN_KEY
+    RETURN_KEY,
+    BACKSPACE_KEY
     };
 
 @implementation UIView (extraFirstResponderMethod)
@@ -66,6 +67,22 @@ enum SPECIAL_KEYS {
                 [_pFirstResponder endEditing:YES];
                 break;
                 
+            case BACKSPACE_KEY:
+            {
+                 NSMutableString * _pNewText = [NSMutableString stringWithString:_pFirstResponder.text];
+                const NSUInteger _Length = [_pNewText length];
+
+                if(_Length)
+                {
+                    NSRange _DelRange;
+                    _DelRange.location = _Length - 1;
+                    _DelRange.length = 1;
+                    [_pNewText deleteCharactersInRange:_DelRange];
+                    
+                    _pFirstResponder.text = _pNewText;
+                }
+                break;
+            }   
             default:
                 _pFirstResponder.text = [_pFirstResponder.text stringByAppendingString:_pButton.titleLabel.text];
                 break;

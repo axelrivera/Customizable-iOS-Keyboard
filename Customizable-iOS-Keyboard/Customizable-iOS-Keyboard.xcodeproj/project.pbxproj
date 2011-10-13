@@ -19,6 +19,7 @@
 		50166698143F82E200BF220D /* CustomizableKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 50166697143F82E200BF220D /* CustomizableKeyboard.m */; };
 		5016669A143F82FB00BF220D /* CustomizableKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50166699143F82FB00BF220D /* CustomizableKeyboard.xib */; };
 		504ED9AD144602A100FEF778 /* ButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 504ED9AC144602A100FEF778 /* ButtonPressed.png */; };
+		50DF27BA14472A930098EE96 /* BackspaceSymbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 50DF27B914472A930098EE96 /* BackspaceSymbol.png */; };
 		50F4F447144600150022BD92 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F4F446144600150022BD92 /* Button.png */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		50166697143F82E200BF220D /* CustomizableKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizableKeyboard.m; sourceTree = "<group>"; };
 		50166699143F82FB00BF220D /* CustomizableKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomizableKeyboard.xib; sourceTree = "<group>"; };
 		504ED9AC144602A100FEF778 /* ButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonPressed.png; sourceTree = "<group>"; };
+		50DF27B914472A930098EE96 /* BackspaceSymbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackspaceSymbol.png; sourceTree = "<group>"; };
 		50F4F446144600150022BD92 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +117,7 @@
 		50166693143F823700BF220D /* res */ = {
 			isa = PBXGroup;
 			children = (
+				50DF27B914472A930098EE96 /* BackspaceSymbol.png */,
 				504ED9AC144602A100FEF778 /* ButtonPressed.png */,
 				50F4F446144600150022BD92 /* Button.png */,
 				50166699143F82FB00BF220D /* CustomizableKeyboard.xib */,
@@ -187,6 +190,7 @@
 				5016669A143F82FB00BF220D /* CustomizableKeyboard.xib in Resources */,
 				50F4F447144600150022BD92 /* Button.png in Resources */,
 				504ED9AD144602A100FEF778 /* ButtonPressed.png in Resources */,
+				50DF27BA14472A930098EE96 /* BackspaceSymbol.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
